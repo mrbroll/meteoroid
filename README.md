@@ -1,7 +1,7 @@
-*Meteoroid* is a command line utility for [Meteor](https://www.meteor.com) and extension for [Meteorite](https://github.com/oortcloud/meteorite).
+**Meteoroid** is a command line utility for [Meteor](https://www.meteor.com) and extension for [Meteorite](https://github.com/oortcloud/meteorite).
 It is designed to quickly scaffold out meteor projects and provide a command line interface for quickly creating commonly used components like controllers and templates.
 
-###Installation:
+###Installation
 ```npm install -g meteoroid```
 
 > _Note that if you need admin rights to install packages globally use:_
@@ -9,18 +9,18 @@ It is designed to quickly scaffold out meteor projects and provide a command lin
 
 ###Usage
 ```mrtd [projectname] [-i [packages]] [-o [options]]```
-*Alternate:*
+**Alternate:**
 ```mrtd [config].json```
 
-*projectname*
+**projectname**
 This is just the name of your project. This will be the name of the containing folder.
 
-*-i [packages] : Install Atmosphere Packages*
+**-i [packages] : Install Atmosphere Packages**
 This is a space-separated list of atmosphere packages to be installed initially.
 
-*-o [options] : Meteoroid Scaffolding Options*
+**-o [options] : Meteoroid Scaffolding Options**
 This is a space-separated list of options, which include:
-+ *no-pkg:*
++ **no-pkg:**
 
 	This will not install any of the default Meteoroid packages. It will only install the same packages as _mrt create_ or _meteor create_.
 
