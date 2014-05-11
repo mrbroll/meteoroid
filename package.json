@@ -5,5 +5,8 @@
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/mrbroll/meteoroid.git"
+	},
+	"bin": {
+		"mrtd": "./bin/mrtd.js"
 	}
 }
