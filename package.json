@@ -1,0 +1,9 @@
+{
+	"name": "meteoroid",
+	"version": "0.0.1",
+	"description": "Wrapper for Meteorite and command line utility for scaffolding Meteor projects and generating commonly used components",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/mrbroll/meteoroid.git"
+	}
+}
