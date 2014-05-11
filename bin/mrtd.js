@@ -63,7 +63,7 @@
 
 var fs = require('fs');
 var sys = require('sys');
-var bash = require('./bash');
+var bash = require('../lib/bash');
 
 var args = process.argv.slice(2);
 
