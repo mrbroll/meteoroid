@@ -29,12 +29,10 @@ if (!args || args.length === 0){
 
 switch(args[0]){
 	case 'controller':
+		//controller.generate(args.slice(1));
 		break;
 	case 'template':
-		break;
-	case 'model':
-		break;
-	case 'component':
+		//template.generate(args.slice(1));
 		break;
 	default:
 		generator.generate(args);

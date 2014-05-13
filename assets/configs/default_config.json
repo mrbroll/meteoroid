@@ -1,0 +1,73 @@
+{
+  "name": "new_project",
+  "dirs": [
+    {
+      "name": ".temp",
+      "childDirs": []
+    },
+    {
+      "name": "client",
+      "childDirs": [
+        {
+          "name": "compatiblity",
+          "childDirs": []
+        },
+        {
+          "name": "templates",
+          "childDirs": []
+        },
+        {
+          "name": "stylesheets",
+          "childDirs": []
+        },
+        {
+          "name": "controllers",
+          "childDirs": []
+        },
+        {
+          "name": "subscriptions",
+          "childDirs": []
+        }
+      ]
+    },
+    {
+      "name": "public",
+      "childDirs": [
+        {
+          "name": "images",
+          "childDirs": []
+        }
+      ]
+    },
+    {
+      "name": "server",
+      "childDirs": [
+        {
+          "name": "publications",
+          "childDirs": []
+        }
+      ]
+    },
+    {
+      "name": "private",
+      "childDirs": []
+    },
+    {
+      "name": "lib",
+      "childDirs": [
+        {
+          "name": "collections",
+          "childDirs": []
+        }
+      ]
+    },
+    {
+      "name": "tests",
+      "childDirs": []
+    }
+  ],
+  "packages": [
+    "iron-router",
+    "scss"
+  ]
+}
