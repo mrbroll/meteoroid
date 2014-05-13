@@ -9,6 +9,7 @@
  * npm to be installed and in your path
  ****************************************/
 var generator = require('../lib/generator');
+var controller = require('../lib/controller');
 
 // Set up our cool running text animation
 var chars = ['|', '/', '-', '\\'];
@@ -29,7 +30,7 @@ if (!args || args.length === 0){
 
 switch(args[0]){
 	case 'controller':
-		//controller.generate(args.slice(1));
+		controller.generate(args.slice(1));
 		break;
 	case 'template':
 		//template.generate(args.slice(1));
