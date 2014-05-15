@@ -10,6 +10,7 @@
  ****************************************/
 var generator = require('../lib/generator');
 var controller = require('../lib/controller');
+var template = require('../lib/template');
 
 // Set up our cool running text animation
 var chars = ['|', '/', '-', '\\'];
@@ -33,7 +34,7 @@ switch(args[0]){
 		controller.generate(args.slice(1));
 		break;
 	case 'template':
-		//template.generate(args.slice(1));
+                template.generate(args.slice(1));
 		break;
 	default:
 		generator.generate(args);
