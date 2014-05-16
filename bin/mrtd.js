@@ -30,13 +30,20 @@ if (!args || args.length === 0){
 }
 
 switch(args[0]){
+    case 'create':
+        generator.generate(args.slice(1), false);
+        break;
+    case 'createwithconfig':
+        generator.generatewithconfig(args.slice(1), true);
+        break;
 	case 'controller':
 		controller.generate(args.slice(1));
 		break;
 	case 'template':
-                template.generate(args.slice(1));
+        template.generate(args.slice(1));
 		break;
 	default:
-		generator.generate(args);
+		//should return help text here
+        exit(0);
 		break;
 }
