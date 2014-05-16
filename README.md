@@ -6,8 +6,11 @@ Meteoroid is still in development. I don't have a whole lot of experience with M
 ###Installation
 ```npm install -g meteoroid```
 
-_Note that if you need admin rights to install packages globally use:_
-```sudo npm install -g meteoroid```
+_Note that if you do not have ownership over your global node_modules directory, you will get errors when trying to install:_
+**DO NOT USE** ```sudo npm install -g meteoroid```
+Using sudo for package management is not the greatest idea.
+Run this once instead:
+```sudo chown -R $USER /usr/local```
 
 ###Usage
 ```mrtd [projectname] [config] [-i [packages]] [-o [options]]```
