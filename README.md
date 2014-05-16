@@ -20,8 +20,6 @@ You can optionally specify a different config.
 Right now the config must be part of the project and exported from assets/configs/index.js.
 There will be a way to easily publish configs in the future, but for now, just enter them manually.
 
-_Note that all options and packages specified will be ignored when specifying a config._
-
 The format is as follows:
 ```
 	{
@@ -68,6 +66,8 @@ _The ability to create, submit, and specify other template files will be added l
 When creating projects, anything after an -i flag will be interpreted as a package and anything after an -o flag will be interpreted as an option and ordering of packages and options does not matter.
 Ex: ```mrtd new_project -i package1 -o option1 -i package2 -i package3 -o option2 option3```
 is the same as: ```mrtd new_project -i package1 package2 package3 -o option1 option2 option3```
+
+That all options and packages specified will be ignored when specifying a config.
 
 Package names are those used by [Atmosphere](https://www.atmospherejs.com). Use empty brackets _[]_ for the _packages_ member of the config to not install any additional packages on project creation.
 
