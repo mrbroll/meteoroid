@@ -67,7 +67,7 @@ When creating projects, anything after an -i flag will be interpreted as a packa
 Ex: ```mrtd new_project -i package1 -o option1 -i package2 -i package3 -o option2 option3```
 is the same as: ```mrtd new_project -i package1 package2 package3 -o option1 option2 option3```
 
-That all options and packages specified will be ignored when specifying a config.
+All options and packages specified will be ignored when specifying a config.
 
 Package names are those used by [Atmosphere](https://www.atmospherejs.com). Use empty brackets _[]_ for the _packages_ member of the config to not install any additional packages on project creation.
 
